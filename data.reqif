@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:configuration="http://eclipse.org/rmf/pror/toolextensions/1.0">
+<REQ-IF xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:toolextensions_1.0="http://eclipse.org/rmf/pror/toolextensions/1.0">
   <THE-HEADER>
     <REQ-IF-HEADER IDENTIFIER="rmf-86e5ddea-c04d-4b22-9554-2655e2b07669">
       <COMMENT>Created by: tuuux</COMMENT>
@@ -47,6 +47,18 @@
             <SPEC-OBJECT-TYPE-REF>_xuHFZGy3Eei64spuKPfBFg</SPEC-OBJECT-TYPE-REF>
           </TYPE>
         </SPEC-OBJECT>
+        <SPEC-OBJECT IDENTIFIER="_uNETQYdgEeiHmcwObWg0lA">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="New Requirement Description 1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_xuHFZWy3Eei64spuKPfBFg</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_xuHFZGy3Eei64spuKPfBFg</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
       </SPEC-OBJECTS>
       <SPECIFICATIONS>
         <SPECIFICATION IDENTIFIER="_xuHFamy3Eei64spuKPfBFg" LAST-CHANGE="2018-06-10T16:08:40.629+02:00" LONG-NAME="Specification Document">
@@ -66,6 +78,11 @@
                 <SPEC-OBJECT-REF>_xuHFaGy3Eei64spuKPfBFg</SPEC-OBJECT-REF>
               </OBJECT>
             </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY IDENTIFIER="_uNETQIdgEeiHmcwObWg0lA">
+              <OBJECT>
+                <SPEC-OBJECT-REF>_uNETQYdgEeiHmcwObWg0lA</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
           </CHILDREN>
         </SPECIFICATION>
       </SPECIFICATIONS>
@@ -73,27 +90,27 @@
   </CORE-CONTENT>
   <TOOL-EXTENSIONS>
     <REQ-IF-TOOL-EXTENSION>
-      <configuration:ProrToolExtension>
-        <configuration:specViewConfigurations>
-          <configuration:ProrSpecViewConfiguration specification="_xuHFamy3Eei64spuKPfBFg">
-            <configuration:columns>
-              <configuration:Column label="Description" width="400"/>
-            </configuration:columns>
-            <configuration:leftHeaderColumn>
-              <configuration:Column label="Lead Header Column" width="30"/>
-            </configuration:leftHeaderColumn>
-          </configuration:ProrSpecViewConfiguration>
-        </configuration:specViewConfigurations>
-        <configuration:generalConfiguration>
-          <configuration:ProrGeneralConfiguration>
-            <configuration:labelConfiguration>
-              <configuration:LabelConfiguration>
+      <toolextensions_1.0:ProrToolExtension>
+        <toolextensions_1.0:specViewConfigurations>
+          <toolextensions_1.0:ProrSpecViewConfiguration specification="_xuHFamy3Eei64spuKPfBFg">
+            <toolextensions_1.0:columns>
+              <toolextensions_1.0:Column label="Description" width="400"/>
+            </toolextensions_1.0:columns>
+            <toolextensions_1.0:leftHeaderColumn>
+              <toolextensions_1.0:Column label="Lead Header Column" width="30"/>
+            </toolextensions_1.0:leftHeaderColumn>
+          </toolextensions_1.0:ProrSpecViewConfiguration>
+        </toolextensions_1.0:specViewConfigurations>
+        <toolextensions_1.0:generalConfiguration>
+          <toolextensions_1.0:ProrGeneralConfiguration>
+            <toolextensions_1.0:labelConfiguration>
+              <toolextensions_1.0:LabelConfiguration>
                 <defaultLabel>Description</defaultLabel>
-              </configuration:LabelConfiguration>
-            </configuration:labelConfiguration>
-          </configuration:ProrGeneralConfiguration>
-        </configuration:generalConfiguration>
-      </configuration:ProrToolExtension>
+              </toolextensions_1.0:LabelConfiguration>
+            </toolextensions_1.0:labelConfiguration>
+          </toolextensions_1.0:ProrGeneralConfiguration>
+        </toolextensions_1.0:generalConfiguration>
+      </toolextensions_1.0:ProrToolExtension>
     </REQ-IF-TOOL-EXTENSION>
   </TOOL-EXTENSIONS>
 </REQ-IF>
